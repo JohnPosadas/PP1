@@ -1,7 +1,6 @@
 /* Navigation bar */
 nav {
 	margin: 27px auto 0;
-
 	position: relative;
 	width: 590px;
 	height: 50px;
@@ -53,22 +52,22 @@ nav .start-home, a:nth-child(1):hover~.animation {
 nav .start-about, a:nth-child(2):hover~.animation {
 	width: 110px;
 	left: 100px;
-	background-color: #e74c3c;
+	background-color: #1abc9c;
 }
 nav .start-blog, a:nth-child(3):hover~.animation {
 	width: 100px;
 	left: 210px;
-	background-color: #3498db;
+	background-color: #1abc9c;
 }
 nav .start-portefolio, a:nth-child(4):hover~.animation {
 	width: 160px;
 	left: 310px;
-	background-color: #9b59b6;
+	background-color: #1abc9c;
 }
 nav .start-contact, a:nth-child(5):hover~.animation {
 	width: 120px;
 	left: 470px;
-	background-color: #e67e22;
+	background-color: #1abc9c;
 }
 
 
@@ -440,3 +439,35 @@ body {
 
 
 /* Footer */
+
+/* Back to Top */
+
+
+.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration:none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+	background-color: #1abc9c;
+  border-radius: 10px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+/* Smooth Scrolling */
+html,
+body {
+  scroll-behavior: smooth;
+}
