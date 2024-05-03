@@ -481,7 +481,7 @@ body {
 .footer-basic {
   padding:40px 0;
   background-color:#34495e;
-  color:#white;
+  color:#f9f9fa;
 }
 
 .footer-basic ul {
@@ -534,7 +534,7 @@ body {
   margin-top:150px;
   text-align:bottom;
   font-size:13px;
-  color:#white;
+  color:#34495e;
   margin-bottom:0;
 }
 
